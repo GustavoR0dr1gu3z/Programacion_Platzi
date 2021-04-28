@@ -11,3 +11,5 @@ var pesoEnMarte;
 peso = prompt("¿Cuál es tu peso?: ");
 peso = (peso/9.81)*(3.711)
 alert("Tu peso en marte es: "+peso)
+
+
