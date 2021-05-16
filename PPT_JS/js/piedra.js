@@ -28,7 +28,7 @@ if(opcionUsuario == piedra)
     else if(opcionUsuario == papel)
         {
             alert("Elegiste Papel")
-        }
+        
         if(opcionMaquina==piedra)
         {
             alert("Ganaste");
@@ -41,10 +41,10 @@ if(opcionUsuario == piedra)
             {
                 alert("Perdiste");
             }
+        }
     else if(opcionUsuario == tijera)
         {
             alert("Elegiste Tijera")
-        }
         if(opcionMaquina==piedra)
         {
             alert("Perdiste");
@@ -57,6 +57,8 @@ if(opcionUsuario == piedra)
             {
                 alert("Empate");
             }
+        }
+
 else
     {
         alert("Digite numero correcto")
