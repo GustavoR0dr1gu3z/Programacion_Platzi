@@ -3,7 +3,7 @@ var papel = 1;
 var tijera = 2;
 
 var opcionUsuario;
-var opcionMaquina;
+var opcionMaquina=papel;
 
 opcionUsuario = prompt("Piedra: 0\nPapel: 1\nTijera: 2\n Opcion: ",0);
 
