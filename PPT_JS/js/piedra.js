@@ -12,7 +12,6 @@ opcionUsuario = prompt("Piedra: 0\nPapel: 1\nTijera: 2\n Opcion: ",0);
 
 if(opcionUsuario == piedra)
     {
-        alert("Elegiste Piedra");
         if(opcionMaquina==piedra)
             {
                 alert("Empate");
@@ -28,8 +27,6 @@ if(opcionUsuario == piedra)
     }
     else if(opcionUsuario == papel)
         {
-            alert("Elegiste Papel")
-        
         if(opcionMaquina==piedra)
         {
             alert("Ganaste");
@@ -45,7 +42,6 @@ if(opcionUsuario == piedra)
         }
     else if(opcionUsuario == tijera)
         {
-            alert("Elegiste Tijera")
         if(opcionMaquina==piedra)
         {
             alert("Perdiste");
