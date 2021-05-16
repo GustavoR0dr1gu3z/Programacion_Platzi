@@ -45,6 +45,18 @@ if(opcionUsuario == piedra)
         {
             alert("Elegiste Tijera")
         }
+        if(opcionMaquina==piedra)
+        {
+            alert("Perdiste");
+        }
+        else if(opcionMaquina==papel)
+            {
+                alert("Ganaste");
+            }
+        else if(opcionMaquina==tijera)
+            {
+                alert("Empate");
+            }
 else
     {
         alert("Digite numero correcto")
