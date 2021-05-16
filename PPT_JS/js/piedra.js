@@ -29,6 +29,18 @@ if(opcionUsuario == piedra)
         {
             alert("Elegiste Papel")
         }
+        if(opcionMaquina==piedra)
+        {
+            alert("Ganaste");
+        }
+        else if(opcionMaquina==papel)
+            {
+                alert("Empate");
+            }
+        else if(opcionMaquina==tijera)
+            {
+                alert("Perdiste");
+            }
     else if(opcionUsuario == tijera)
         {
             alert("Elegiste Tijera")
