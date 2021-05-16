@@ -14,15 +14,15 @@ if(opcionUsuario == piedra)
         alert("Elegiste Piedra")
         if(opcionMaquina==piedra)
             {
-                alert("Empate");
+                alert("Empate")
             }
             else if(opcionMaquina==papel)
                 {
-                    alert("Perdiste");
+                    alert("Perdiste")
                 }
             else if(opcionMaquina==tijera)
                 {
-                    alert("Ganaste");
+                    alert("Ganaste")
                 }
     }
     else if(opcionUsuario == papel)
