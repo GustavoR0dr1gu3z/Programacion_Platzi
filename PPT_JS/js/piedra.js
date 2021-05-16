@@ -9,6 +9,7 @@ var opcionMaquina=papel;
 opcionUsuario = prompt("Piedra: 0\nPapel: 1\nTijera: 2\n Opcion: ",0);
 
 alert("Elegiste "+opciones[opcionUsuario]);
+alert("JS Eligió: "+opciones[opcionMaquina]);
 
 if(opcionUsuario == piedra)
     {
