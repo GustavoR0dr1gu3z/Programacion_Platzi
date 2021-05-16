@@ -7,7 +7,7 @@ var opcionMaquina;
 
 opcionUsuario = prompt("Piedra: 0\nPapel: 1\nTijera: 2\n Opcion: ",0);
 
-alert("Ejegiste "+opcionUsuario);
+
 
 if(opcionUsuario == 0){
     alert("Elegiste Piedra")
