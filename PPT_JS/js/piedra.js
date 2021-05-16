@@ -1,5 +1,6 @@
 function aleatorio(minimo,maximo)
     {
+        // floot: quita los decimales a los numeros aleatorios
         var num = Math.floor(Math.random() * (maximo - minimo+ 1) +minimo );
         return num;
     }
