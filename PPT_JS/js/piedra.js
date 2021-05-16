@@ -1,6 +1,7 @@
 function aleatorio(minimo,maximo)
     {
         var num = Math.floor(Math.random() * (maximo - minimo+ 1) +minimo );
+        return num;
     }
 
 var piedra = 0;
