@@ -9,11 +9,11 @@ opcionUsuario = prompt("Piedra: 0\nPapel: 1\nTijera: 2\n Opcion: ",0);
 
 
 
-if(opcionUsuario == 0){
+if(opcionUsuario == piedra){
     alert("Elegiste Piedra")
-}else if(opcionUsuario == 1){
+}else if(opcionUsuario == papel){
     alert("Elegiste Papel")
-}else if(opcionUsuario == 2){
+}else if(opcionUsuario == tijera){
     alert("Elegiste Tijera")
 }else{
     alert("Digite numero correcto")
