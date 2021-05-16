@@ -1,6 +1,7 @@
 var piedra = 0;
 var papel = 1;
 var tijera = 2;
+var opcione =["Piedra", "Papel", "Tijera"];
 
 var opcionUsuario;
 var opcionMaquina=papel;
