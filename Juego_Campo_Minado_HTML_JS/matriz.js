@@ -24,7 +24,7 @@ x = prompt("Posicion X (Entre 0 y 2): ");
 y = prompt("Posicion Y (Entre 0 y 2): ");
 var posicion = campo[x][y];
 
-if (posicion != undefined){
+if ( x<3 && y<3 ){
     alert("Posicion Correcta");
 }else{
     boom();
