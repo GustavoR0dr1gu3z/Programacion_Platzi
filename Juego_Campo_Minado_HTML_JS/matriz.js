@@ -22,10 +22,10 @@ alert("ESTÁS EN UN CAMPO MINADO ELIGE UNA POSICIÓN ENTRE EL 0 Y 3 PARA X,Y");
 
 x = prompt("Posicion X (Entre 0 y 2): ");
 y = prompt("Posicion Y (Entre 0 y 2): ");
-var posicion = campo[x][y];
+
 
 if ( x<3 && y<3 ){
-    alert("Posicion Correcta");
+    var posicion = campo[x][y];
 }else{
     boom();
 }
