@@ -14,11 +14,14 @@ var campo =[[1 , 0 , 0],
             [0 , 1 , 0],
             [1 , 1 , 1]];
 
+var textos = ["Césped", "Bomba"]
+
 var x, y;
 
 alert("ESTÁS EN UN CAMPO MINADO ELIGE UNA POSICIÓN ENTRE EL 0 Y 3 PARA X,Y");
 
 x = prompt("Posicion X (Entre 0 y 2): ");
 y = prompt("Posicion Y (Entre 0 y 2): ");
+var posicion = campo[x][y];
 
-document.write(campo[x][y]);
+document.write(textos[posicion]);
