@@ -3,4 +3,6 @@ function boom(){
     document.write("<h1> BOM, ELEGISTE OPCION MINDADA<h1>");
 }
 
-boom();
+function ganaste(){
+    
+}
