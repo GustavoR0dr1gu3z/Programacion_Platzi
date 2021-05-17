@@ -4,5 +4,6 @@ function boom(){
 }
 
 function ganaste(){
-    
+    alert("!!GANASTE!!");
+    document.write("<h1> GANASTE <h1>");
 }
