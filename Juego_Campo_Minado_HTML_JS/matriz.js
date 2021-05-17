@@ -26,6 +26,7 @@ y = prompt("Posicion Y (Entre 0 y 2): ");
 
 if ( x<3 && y<3 ){
     var posicion = campo[x][y];
+    document.write("ELEGISTE: "+textos[posicion]);
     if(posicion == 1){
         boom();
     }else{
