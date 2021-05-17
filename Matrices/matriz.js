@@ -1,1 +1,1 @@
-alert("hola");
+var menu = ["Productos", "Ventas", "Contacto"];
