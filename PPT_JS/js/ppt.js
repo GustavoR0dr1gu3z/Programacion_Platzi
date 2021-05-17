@@ -8,7 +8,7 @@ function aleatorio(minimo,maximo)
 var piedra = 0;
 var papel = 1;
 var tijera = 2;
-var opciones =["Piedra", "Papel", "Tijera"];
+var opciones = ["Piedra", "Papel", "Tijera"];
 
 var opcionUsuario;
 var opcionMaquina=aleatorio(0,2);
