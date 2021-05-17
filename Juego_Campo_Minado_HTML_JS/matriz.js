@@ -27,5 +27,6 @@ y = prompt("Posicion Y (Entre 0 y 2): ");
 if ( x<3 && y<3 ){
     var posicion = campo[x][y];
 }else{
+    document.write("TE SALISTE DEL CAMPO");
     boom();
 }
