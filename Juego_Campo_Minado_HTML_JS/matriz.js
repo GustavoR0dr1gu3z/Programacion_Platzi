@@ -1,6 +1,6 @@
 function boom(){
     alert("!!BOOOOOM!!");
-    document.write("<h1> BOM, ELEGISTE OPCION MINDADA<h1>");
+    document.write("<h1> BOOOM, ELEGISTE OPCION MINDADA<h1>");
 }
 
 function ganaste(){
