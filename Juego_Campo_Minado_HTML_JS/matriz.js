@@ -17,3 +17,6 @@ var campo =[[1 , 0 , 0],
 var x, y;
 
 alert("ESTÁS EN UN CAMPO MINADO ELIGE UNA POSICIÓN ENTRE EL 0 Y 3 PARA X,Y");
+
+x = prompt("Posicion X (Entre 0 y 2): ");
+y = prompt("Posicion Y (Entre 0 y 2): ");
