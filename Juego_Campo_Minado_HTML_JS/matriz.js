@@ -15,3 +15,5 @@ var campo =[[1 , 0 , 0],
             [1 , 1 , 1]];
 
 var x, y;
+
+alert("ESTÁS EN UN CAMPO MINADO \n ELIGE UNA POSICIÓN ENTRE EL 0 Y 3 PARA X,Y");
