@@ -1,5 +1,9 @@
 //Document Object Model
 
+// 3 principales objetos
+//1.- Navigator: 
+//2.- Window: 
+//3.- Document: 
 
 // Document = Objeto que tiene html
 // Objeto = Funciones/Variables
