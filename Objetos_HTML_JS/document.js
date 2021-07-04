@@ -1,9 +1,9 @@
 //Document Object Model
 
 // 3 principales objetos
-//1.- Navigator: 
-//2.- Window: 
-//3.- Document: 
+//1.- Navigator:  COntrola controles especiales del navegador
+//2.- Window: Especificaciones de la pantalla, alto, etc.
+//3.- Document: Controla HTML
 
 // Document = Objeto que tiene html
 // Objeto = Funciones/Variables
