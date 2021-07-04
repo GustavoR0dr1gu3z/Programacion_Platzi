@@ -14,6 +14,7 @@
 //pi = Math.floor(pi)
 //document.write(pi)
 
+/*
 var maximo;
 maximo = Math.max(5,52,85,1,2,6,8,45);
 document.write(maximo)
@@ -26,3 +27,4 @@ function mostrar(pos){
 
 // Para la posicion en coordenadas
 navigator.geolocation.getCurrentPosition(mostrar);
+_*/
