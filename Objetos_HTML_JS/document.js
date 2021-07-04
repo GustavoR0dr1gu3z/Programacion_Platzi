@@ -17,3 +17,12 @@
 var maximo;
 maximo = Math.max(5,52,85,1,2,6,8,45);
 document.write(maximo)
+
+
+
+function mostrar(pos){
+    document.write(pos.coords.latitude+", "+pos.coords.longitude); 
+}
+
+// Para la posicion en coordenadas
+navigator.geolocation.getCurrentPosition(mostrar);
