@@ -5,6 +5,35 @@
 //2.- Window: Especificaciones de la pantalla, alto, etc.
 //3.- Document: Controla HTML
 
+// Objetos se declaran con Mayuscula
+var Pokemon = {
+    nombre: "Pikachu",
+    tipo: "Eléctrico"    
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Document = Objeto que tiene html
 // Objeto = Funciones/Variables
 //document.write("Hola");
